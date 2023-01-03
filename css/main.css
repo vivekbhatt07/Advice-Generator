@@ -4,9 +4,9 @@
   --primary-font: "Manrope", sans-serif;
   --body-bg: hsl(218, 23%, 16%);
   --card-bg: hsl(217, 19%, 24%);
-  --card-quote: hsl(217, 19%, 38%);
+  --card-quote: hsl(193, 38%, 86%);
   --head-color: hsl(150, 100%, 66%);
-  --btn-bg: hsl(193, 38%, 86%);
+  --btn-bg: hsl(150, 100%, 66%);
   --border-radius: 8px;
 }
 
@@ -35,6 +35,8 @@ blockquote {
 
 .main {
   margin: auto;
+  max-width: 450px;
+  width: 90%;
 }
 
 .card {
@@ -53,9 +55,12 @@ blockquote {
 }
 
 .card-quote {
-  max-width: 400px;
   text-align: center;
   color: var(--card-quote);
+}
+
+.card-desktop-img {
+  display: none;
 }
 
 .dice-btn {
@@ -66,4 +71,15 @@ blockquote {
   border: none;
   position: absolute;
   bottom: -9%;
+  background-color: var(--btn-bg);
+}
+
+@media (min-width: 1280px) {
+  .card-mobile-img {
+    display: none;
+  }
+
+  .card-desktop-img {
+    display: block;
+  }
 }
