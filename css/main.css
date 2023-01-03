@@ -34,13 +34,9 @@ h1 {
   font-weight: 800;
 }
 
-blockquote {
-  font-size: 28px;
-}
-
 .main {
   margin: auto;
-  max-width: 380px;
+  max-width: 360px;
   width: 90%;
 }
 
@@ -52,7 +48,7 @@ blockquote {
   gap: 1em;
   align-items: center;
   border-radius: var(--border-radius);
-  padding: 2em 2em 3.5em 2em;
+  padding: 2em 1.5em 3.5em 1.5em;
 }
 
 .card-head {
