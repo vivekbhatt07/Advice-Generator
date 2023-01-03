@@ -49,6 +49,7 @@ h1 {
   align-items: center;
   border-radius: var(--border-radius);
   padding: 2em 1.5em 3.5em 1.5em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .card-head {
