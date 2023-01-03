@@ -72,6 +72,16 @@ blockquote {
   position: absolute;
   bottom: -9%;
   background-color: var(--btn-bg);
+  transition-property: transform;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dice-btn:active {
+  transform: scale(0.92);
 }
 
 @media (min-width: 1280px) {
