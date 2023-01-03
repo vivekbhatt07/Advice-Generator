@@ -7,7 +7,7 @@
   --card-quote: hsl(193, 38%, 86%);
   --head-color: hsl(150, 100%, 66%);
   --btn-bg: hsl(150, 100%, 66%);
-  --border-radius: 8px;
+  --border-radius: 12px;
 }
 
 *,
@@ -36,7 +36,7 @@ h1 {
 
 .main {
   margin: auto;
-  max-width: 360px;
+  max-width: 450px;
   width: 90%;
 }
 
@@ -45,7 +45,7 @@ h1 {
   background-color: var(--card-bg);
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 1.5em;
   align-items: center;
   border-radius: var(--border-radius);
   padding: 2em 1.5em 3.5em 1.5em;
